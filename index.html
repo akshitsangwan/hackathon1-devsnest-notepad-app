@@ -9,27 +9,32 @@
 </head>
 
 <body>
+
+    <!-- ***** Navigation Bar **** -->
     <nav class="nav-bar">
         <h1 class="brand-name">DevNotes</h1>
         <p id="typewriter-content">can <span id="typewriter-text"></span></p>
     </nav>
 
+    <!-- ***** Tools Section **** -->
     <div class="tools">
-        <input type="button" value="Bold">
+        <input type="button" value="Bold" onclick="Bold()">
         <input type="button" value="Underline">
         <input type="button" value="Copy">
     </div>
 
+    <!-- ***** Create/Add Notes Section **** -->
     <div id="container">
-        <textarea  class="note" placeholder="Jot down your thoughts!"></textarea>
         <input class="add-note" type="button" value="+">
     </div>
-
     <hr>
+
+    <!-- ***** Copyright **** -->
     <footer>
-        <h2 class="copyright">Made with ❤️ by Troopers</h2>
+        <h2 class="copyright">Made with <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/animated-noto-color-emoji/344/red-heart_2764-fe0f.gif"> by <span class="team-name">Troopers</span></h2>
     </footer>
     
+    <!-- ***** JavaScript source links **** -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="app.js"></script>
 </body>

@@ -34,7 +34,7 @@ body{
 
 #container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 290px);
     margin: 50px;
     padding: 50px;
     gap:3rem;
@@ -87,7 +87,7 @@ hr{
     border: none;
     outline: none;
     border-radius: 3%;
-    box-shadow: 10px 10px 10px rgba(189, 170, 170, 0.516);
+    box-shadow: 10px 10px 10px rgba(189, 170, 170, 0.342);
 }
 
 .note:focus{
@@ -98,7 +98,7 @@ hr{
     height: 300px;
     outline: none;
     color: rgba(169, 128, 128, 0.495);
-    background-color: rgba(67, 49, 49, 0.9);
+    background-color: rgba(44, 111, 150, 0.104);
     font-size: 170px;
     border-radius: 10px;
     border: none;
@@ -107,13 +107,23 @@ hr{
 }
 
 .add-note:hover{
-    background-color: rgba(140, 102, 102, 0.56);
+    background-color: rgba(96, 63, 63, 0.56);
 }
 
 footer{
     display: flex;
     justify-content: center;
 }
+
+footer img{
+    height: 22px;
+    width: 22px;
+}
+
+.team-name{
+    color: rgb(248, 35, 35);
+}
+
 .copyright
 {
     padding-top: 40px;
