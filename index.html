@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Notes App</title>
+    <title>DevNotes</title>
 </head>
+
 <body>
+    <nav class="nav-bar">
+        <h1 class="brand-name">DevNotes</h1>
+        <p id="typewriter-content">can <span id="typewriter-text"></span></p>
+    </nav>
+
+    <div class="tools">
+        <input type="button" value="Bold">
+        <input type="button" value="Underline">
+        <input type="button" value="Copy">
+    </div>
+
+    <div id="container">
+        <textarea  class="note" placeholder="Jot down your thoughts!"></textarea>
+        <input class="add-note" type="button" value="+">
+    </div>
+
+    <hr>
+    <footer>
+        <h2 class="copyright">Made with ❤️ by Troopers</h2>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="app.js"></script>
 </body>
 </html>
