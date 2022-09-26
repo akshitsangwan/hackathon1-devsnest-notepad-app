@@ -1,4 +1,4 @@
-# hackathon1-devsnest-notepad-app
+# DevNotes-(Hackathon-1 devsnest notepad app)
 
 <b>DevNotes</b> is simple Notes Taking Website built using HMTL5, CSS3 and JavaScript. It is a project we built in Hackathon One at Devsnest. We are team of 3 members, namely, Akshit Sangwan, Himanshu Kesarwani, Ayush Maheshwari.
 <hr>
