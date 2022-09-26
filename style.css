@@ -47,18 +47,18 @@ hr{
     margin: 20px auto;
 }
 
-#instructions {
-    color: white;
-    border: 1px solid red;
-    border-radius: 20px;
-    margin-top: 50px;
-}
-
 .tools, #instructions{
     display: flex;
     margin: auto;
     justify-content: center;
     width: 60vw;
+}
+
+#instructions {
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 50px;
 }
 
 .tools input{
