@@ -52,13 +52,13 @@ hr{
     border: 1px solid red;
     border-radius: 20px;
     margin-top: 50px;
-    width: 50vw;
 }
 
 .tools, #instructions{
     display: flex;
     margin: auto;
     justify-content: center;
+    width: 60vw;
 }
 
 .tools input{
