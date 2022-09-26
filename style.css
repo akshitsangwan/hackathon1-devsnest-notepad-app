@@ -47,10 +47,17 @@ hr{
     margin: 20px auto;
 }
 
+#instructions {
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 50vw;
+}
+
 .tools, #instructions{
     display: flex;
     margin: auto;
-    width: 60vw;
     justify-content: center;
 }
 
@@ -103,19 +110,6 @@ hr{
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgba(186, 109, 109, 0.814);
   outline: 1px solid rgb(50, 53, 56);
-}
-
-
-/* #instructions {
-    text-align: center;
-    color: white;
-} */
-#instructions {
-
-    color: white;
-    border: 1px solid red;
-    border-radius: 20px;
-    margin-top: 50px;
 }
 
 .note:focus{
