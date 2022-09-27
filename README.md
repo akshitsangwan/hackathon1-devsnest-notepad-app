@@ -5,11 +5,13 @@
   
 <h2>#Instructions to use:</h2>
 
-1.Double Click on any Note to delete.
-<br>
-2.Select text and click on Copy Button to Copy.
-<br>
-3.Select text and click on Bold Button to make text bold.
-<br>
-4.Select text and click on Underline Button to make text underlined.
-<br>
+<ol>
+  <li>Double Click on any Note to delete.</li>
+  <br>
+  <li>Select text and click on Copy Button to Copy.</li>
+  <br>
+  <li>Select text and click on Bold Button to make text bold.</li>
+  <br>
+  <li>Select text and click on Underline Button to make text underlined.</li>
+  <br>
+</ol>
